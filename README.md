@@ -32,7 +32,10 @@ Note: Vercel may load slowly in some network environments. The Tencent CloudBase
 If you want to run this project on your own computer, follow these steps.
 
 如果想在自己电脑本地打开项目，可以按照下面步骤运行。
-
+先找到文件
+```bash
+cd "/Users/alena/My_Coding_Project/monopoly-demo"
+```
 ### 1. Install dependencies / 安装依赖
 
 ```bash
