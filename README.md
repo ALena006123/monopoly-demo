@@ -3,13 +3,65 @@
 作者：韩逸雪  
 Author: Alena Han
 
-A React + Vite mini game inspired by classic Monopoly, redesigned with Chinese cities, regional property groups, transport assets, and multiplayer trading.
+## Project Introduction / 项目介绍
 
-一个基于 React + Vite 制作的大富翁小游戏 Demo，使用中国城市作为棋盘格子，并加入地区颜色、交通资产、建房、过路费和玩家交易等玩法。
+China Monopoly Demo is a React + Vite web game inspired by classic Monopoly.  
+The game uses Chinese cities as board spaces and includes property purchase, regional color groups, rent, house building, transport assets, chance cards, trading, debt handling, and bankruptcy rules.
 
-## Live Demo / 在线预览
+中国城市大富翁 Demo 是一个基于 React + Vite 制作的网页小游戏，参考经典大富翁玩法，并结合中国城市主题进行设计。  
+玩家可以购买城市、收取过路费、买齐同色地区后建房升级，也可以购买交通资产、触发机会事件、进行玩家交易，并处理负债和破产规则。
 
-Vercel link: 请放你的 Vercel 链接
+## Live Website / 在线打开网站
+
+You can play the deployed version here:
+
+国内访问链接：
+
+https://monopoly-demo-d8gpjvahxd47588ca-1443062397.tcloudbaseapp.com
+
+Vercel preview link:
+
+https://monopoly-demo.vercel.app/
+
+Note: Vercel may load slowly in some network environments. The Tencent CloudBase link is recommended for users in China.
+
+说明：Vercel 在部分国内网络环境下可能加载较慢，国内访问建议使用腾讯云 CloudBase 链接。
+
+## How to Run Locally / 本地打开方式
+
+If you want to run this project on your own computer, follow these steps.
+
+如果想在自己电脑本地打开项目，可以按照下面步骤运行。
+
+### 1. Install dependencies / 安装依赖
+
+```bash
+npm install
+```
+
+### 2. Start the development server / 启动项目
+
+```bash
+npm run dev
+```
+
+### 3. Open the website / 打开网页
+
+After running the command, the terminal will show a local URL, usually like:
+
+```bash
+http://localhost:5173/
+```
+
+Open that URL in your browser.
+
+运行命令后，终端会显示一个本地网址，通常是：
+
+```bash
+http://localhost:5173/
+```
+
+把这个网址复制到浏览器里打开即可。
 
 ## Features / 功能
 
@@ -53,19 +105,8 @@ Vercel link: 请放你的 Vercel 链接
 - CSS
 - Vite
 
-## How to Run / 如何运行
-
-```bash
-npm install
-npm run dev
-```
-
-Then open the local URL shown in the terminal.
-
-然后打开终端里显示的本地网址。
-
 ## Project Goal / 项目目标
 
-This project was built as a front-end demo to practice React state management, game logic, UI layout, and interactive user experience design.
+This project was built as a front-end demo to practice React state management, component-based UI development, game logic, layout design, and interactive user experience.
 
-这个项目用于练习前端开发中的 React 状态管理、游戏规则逻辑、页面布局和交互体验设计。
+这个项目用于练习前端开发中的 React 状态管理、组件化开发、游戏规则逻辑、页面布局和交互体验设计。
